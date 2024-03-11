@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My site</title>
+    <style>
+        /* Закоментуйте існуючий стиль для елемента li */
+        /* li {
+            list-style: none;
+        } */
+        /* Змініть елемент nav на inline-блок і зробіть його ширину близько 80% */
+        nav {
+            display: inline-block;
+            width: 80%;
+        }
+        /* Змініть стиль класу grid на двоколонкову сітку, де кожна колонка має ширину приблизно 40% */
+        .grid {
+            display: grid;
+            grid-template-columns: 40% 40%;
+            gap: 10px;
+        }
+        /* Використовуйте селектор за спадним принципом для стилізації лише зображень в навігаторі шириною близько 10% */
+        nav img {
+            width: 10%;
+        }
+        /* Стилізуйте клас flex для використання flex */
+        .flex {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome my site </h1>
+    </header>
+    <!-- Додайте робоче посилання "Перейти до основного змісту" -->
+    <nav>
+        <ul>
+            <li><a href="#main-content">Перейти до основного змісту</a></li>
+        </ul>
+    </nav>
+    <main id="main-content">
+        <h2>Our service</h2>
+        <ul>
+            <li>Web development</li>
+            <li>Interface design</li>
+            <li>Website optimization</li>
+        </ul>
+
+        <h2>Our photo</h2>
+        <img src="image1.jpg" alt="Зображення 1">
+        <img src="image2.jpg" alt="Зображення 2">
+        <img src="image3.jpg" alt="Зображення 3">
+    </main>
+
+    <footer>
+        <p>Visit our <a href="https://www.example.com">Web-develop</a> for more information.</p>
+    </footer>
+</body>
+
+</html>
